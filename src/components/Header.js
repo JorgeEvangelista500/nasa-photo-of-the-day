@@ -1,8 +1,14 @@
 import React from "react";
+import styled from "styled-components";
 
+const StyledHeader = styled.h1`
+    color: #1e90ff;
+   
+
+`
 const Header = ({title}) => {
 
-    return <h1>{title}</h1>
+    return <StyledHeader>{title}</StyledHeader>
 }
 
 export default Header
